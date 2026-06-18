@@ -1,23 +1,90 @@
-# 🌐 Global Translation App
+# Global Translation App
 
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+Real-Time Translation. Natural Voice Interaction. Seamless Multilingual Communication.
 
-Real-Time. Real Dialogue. Seamless Global Conversations. 
+Live Application: https://globaltranslation.streamlit.app/
 
-**[🚀 Try the Live App Here!](https://globaltranslation.streamlit.app/)**
+---
 
-## ✨ Features
-* **Real-Time Neural Translation:** Instantly translate text across 100+ languages using Google's robust translation engine.
-* **Studio-Quality Voice Synthesis (TTS):** Listen to native, high-quality audio pronunciations for both your source text and the translated output using Microsoft Edge TTS.
-* **Smart Workspace & History:** Automatically save your translations to a sidebar workspace. Rename, review, or delete past translations with ease.
-* **World-Class UI/UX:** A responsive, enterprise-grade interface featuring seamless clipboard copying, TXT downloading, and asynchronous audio handling.
+## Overview
 
-## 🛠️ Installation & Local Setup
+Global Translation App is a real-time multilingual communication platform designed to translate text across multiple languages while providing high-quality voice synthesis capabilities. The application combines translation technology with natural speech generation to create a smooth and accessible user experience for global communication.
 
-If you want to run this application on your own machine, follow these steps:
+Built with Python and Streamlit, the platform supports text translation, voice playback, translation history management, and productivity-focused features within a modern web interface.
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/anuragsahu-git/global-translation.git](https://github.com/anuragsahu-git/global-translation.git)
-   cd global-translation
+---
+
+## Features
+
+* Real-time translation across 100+ languages
+* High-quality text-to-speech synthesis
+* Source and translated text audio playback
+* Translation history and workspace management
+* Copy-to-clipboard functionality
+* Download translations as text files
+* Responsive and user-friendly interface
+* Fast and reliable translation processing
+
+---
+
+## Technology Stack
+
+* Python
+* Streamlit
+* Google Translation Services
+* Microsoft Edge Text-to-Speech (TTS)
+* Async Audio Processing
+
+---
+
+## Installation and Local Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/anuragsahu-git/global-translation.git
+cd global-translation
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Application Preview
+
+Add screenshots of the application interface here.
+
+---
+
+## Use Cases
+
+* Language learning and practice
+* International communication
+* Content localization
+* Travel assistance
+* Business communication
+* Educational purposes
+
+---
+
+## Author
+
+Anurag Sahu
+
+GitHub: https://github.com/anuragsahu-git
+
+---
+
+## License
+
+This project is intended for educational, learning, and portfolio purposes.
